@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Alora Jewels</title>
+</head>
+<body>
+    <header>
+        <h1>Elegent Jewelry</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Collection</a>
+            <a href="#">About</a>
+            <a href="#">contact</a>
+        </nav>
+    </header>
+    <section class="home">
+        <h2>
+            Timeless Beauty, Morden Elegence
+        </h2>
+
+    </section>
+    <section class="products">
+        <div class="product-card">
+            <img src="src/brace.jpg" alt="Bracelet" />
+            <h3>Bracelet $20</h3>
+        </div>
+        <div class="product-card">
+            <img src="src/neck.jpg" alt="necklace" />
+            <h3>necklace set $25</h3>
+        </div>
+        <div class="product-card">
+            <img src="src/ring.jpg" alt="Rings" />
+            <h3>Rings $10</h3>
+        </div>
+    </section>
+    <!-- Javascript interaction -->
+    <section class="interact">
+     <h2>
+        Special message just for you❤
+     </h2>
+     <div id="message-container">
+        <p id="hidden-msg" class="hidden">
+            Thank you for exploring our Jewelry collecton!
+        </p>
+        <button id="toggle-msg">Show Message</button>
+        
+     </div>
+    </section>
+
+    <section class="contact">
+       <h2>Contact Us</h2>
+       <form>
+        <label for="name">Name</label>
+        <input type="text" id="name"  placeholder="Your Name" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Email" required>
+        <label for="message">Message</label>
+        <textarea id="message" rows="5" placeholder="Your message" required></textarea>
+        <button type="submit">Send Message</button>
+       </form>
+    </section>
+    <footer>
+        <p> 2025  Alora Jewels</p>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
